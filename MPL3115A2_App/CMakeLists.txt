@@ -18,7 +18,7 @@
 # This contains the basic project information. Specifically, a cmake version and project definition. It also defines our
 # default paths to the F prime framework, and sets a default toolchain.
 ##
-project(GpsApp C CXX)  # Should match the directory it is in
+project(MPL3115A2_App C CXX)  # Should match the directory it is in
 cmake_minimum_required(VERSION 3.5)
 
 ##

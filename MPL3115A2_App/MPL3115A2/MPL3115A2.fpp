@@ -1,9 +1,13 @@
 module MPL3115A2_App {
+
     active component MPL3115A2 {
 
         # ----------------------------------------------------------------------
         # Ports (data_type, port, name)
         # ----------------------------------------------------------------------
+
+        @ component with event specifiers must have time get port - from error thrown during build
+        time get port timeCaller
 
         @ input port of Fw::Cmd type used to process commands sent to this component
         command recv port cmdIn
