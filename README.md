@@ -1,4 +1,4 @@
-# F´ MPL3225A2 App
+# F´ MPL3115A2 App
 
 This is an example F´ application driver for an I2C sensor, the mpl3115a2. This
 example is specifically built for the raspberry pi but with the creation of a new toolchain, this application should work on any linux system.
